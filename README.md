@@ -6,7 +6,7 @@ I'm Aziz and this account is a show case of stuff that I like working on.
 - 🔭 I’m currently working on AI SAAS
 - 🌱 I’m currently learning GSAP animations, ThreeJS
 - 👨‍💻 All of my projects are available at [www.azizriskulov.com](www.azizriskulov.com)
-- 📫 How to reach me **help@azizriskulov.com**
+- 📫 How to reach me **vinceere@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">

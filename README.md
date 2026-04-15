@@ -1,4 +1,4 @@
-<a href="http://azizriskulov.com" target="_blank"><img src="https://user-images.githubusercontent.com/23401067/224534315-c8c67cab-25cc-4a80-b8eb-745f0504da7b.png" /></a>
+<a href="http://azizriskulov.com" target="_blank"></a>
 
 I'm Aziz and this account is a show case of stuff that I like working on.  
 

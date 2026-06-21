@@ -14,7 +14,7 @@ I build backend systems, serverless pipelines, and platform integrations. Curren
 ## Stack
 
 **Primary:** Go · Node.js · TypeScript · Python  
-**Cloud & Infra:** AWS Lambda · DynamoDB · S3 · EventBridge · API Gateway  
+**Cloud & Infra:** AWS Lambda · DynamoDB · S3 · EventBridge · API Gateway · Terraform · Kubernetes
 **Databases:** PostgreSQL · MongoDB · MySQL  
 **Integrations:** HubSpot API · Monday.com API · Slack API  
 **Other:** Docker · Linux · Nginx · Git

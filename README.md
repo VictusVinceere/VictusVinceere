@@ -14,10 +14,10 @@ I build backend systems, serverless pipelines, and platform integrations. Curren
 ## Stack
 
 **Primary:** Go · Node.js · TypeScript · Python  
-**Cloud & Infra:** AWS · Terraform · Kubernetes
+**Cloud & Infra:** AWS · Terraform · Kubernetes  
 **Databases:** PostgreSQL · MongoDB · MySQL  
 **Integrations:** HubSpot API · Monday.com API · Slack API  
-**Other:** Docker · Linux · Nginx · Git
+**Other:** Docker · Linux · Nginx · Git · Neovim  
 
 ## Selected Work
 

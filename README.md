@@ -1,6 +1,6 @@
 # Aziz Riskulov
 
-**Backend Engineer** · Go · AWS · Node.js · Python
+**Full Stack Engineer** · Go · AWS · Node.js · Python
 
 I build backend systems, serverless pipelines, and platform integrations. Currently going deep on Go — concurrency, systems design, and building production services.
 

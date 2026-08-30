@@ -1,36 +1,59 @@
 # Aziz Riskulov
 
-**Full Stack Engineer** · Go · AWS · Node.js · Python
+**Full Stack AI Engineer** · Voice agents · Retrieval · Evals and guardrails
 
-I build backend systems, serverless pipelines, and platform integrations. Currently going deep on Go — concurrency, systems design, and building production services.
+Most AI demos never survive contact with real users. I build the ones that do:
+systems wired into the CRM, ERP and document stores a business already runs,
+deployed and measured rather than demonstrated once and abandoned.
 
-## What I'm Working On
+Six years full stack, three of them building with language models.
 
-- Writing Go services and solving algorithmic problems in Go daily
-- Building AI automation tools (HubSpot, Monday.com, Slack integrations)
-- Designing and shipping AWS Lambda pipelines in production
-- Open-source contributions to Go projects
+## Projects
+
+**[ai-voice-agents-crm-erp](https://github.com/VictusVinceere/ai-voice-agents-crm-erp)** — [demo](https://youtu.be/obWUc-foFNU)
+A phone agent that identifies the caller, answers stock and order questions
+from live ERP data, books appointments, and writes contacts, deals and call
+summaries back into HubSpot. LiveKit, Python, pgvector.
+
+I built the specialists-behind-a-router architecture that gets recommended for
+multi-skill agents, measured it against a single agent, and deleted it: same
+10/10 eval score, first response 4993ms versus 3217ms, plus two failure modes
+the split introduced. Twelve eval cases name the tool the agent must call and
+the ones it must not.
+
+**[whatsapp-ea](https://github.com/VictusVinceere/whatsapp-ea)** — [demo](https://youtu.be/kKBwOS1lApY)
+A WhatsApp assistant answering from a company's own documents, with Gmail,
+Calendar and Drive access. Running in production. LangGraph, FastAPI, Claude,
+pgvector, Deepgram.
+
+Reads run immediately, writes wait for confirmation, and that gate is a
+conditional database update rather than a prompt instruction — so two people
+approving at the same moment produce exactly one action. There is a test for
+that race.
 
 ## Stack
 
-**Primary:** Go · Node.js · TypeScript · Python  
-**Cloud & Infra:** AWS · Terraform · Kubernetes  
-**Databases:** PostgreSQL · MongoDB · MySQL  
-**Integrations:** HubSpot API · Monday.com API · Slack API  
-**Other:** Docker · Linux · Nginx · Git · Neovim  
+**AI:** Claude · Gemini · OpenAI · LangGraph · LiveKit · RAG · pgvector · fastembed · Deepgram · evaluation suites
+**Languages:** Python · TypeScript · JavaScript · PHP · SQL
+**Backend:** FastAPI · Node · Nest.js · Laravel · REST · GraphQL
+**Frontend:** React · Next.js · Redux · Vue
+**Data:** PostgreSQL · MySQL · DynamoDB · Redis
+**Cloud:** AWS Lambda · SQS · S3 · Docker · GitHub Actions · Caddy · Linux
+**Integrations:** HubSpot · Slack · WhatsApp Cloud API · Google Workspace
 
-## Selected Work
+## Writing
 
-- **Serverless Integration Pipelines** — AWS Lambda functions connecting HubSpot, Slack, and Monday.com with automated deal syncing, PDF generation, and event-driven workflows
-- **BNPL Platform Features** — Backend feature development for a buy-now-pay-later platform
-- **Fintech Accounting Integrations** — System integrations for financial data processing
+Notes on what actually breaks when these systems meet real users:
 
-## Go Journey
+- [The obvious voice agent architecture was the slower one](https://blog.azizriskulov.com/posts/the-obvious-voice-agent-architecture-was-the-slower-one)
+- [An assistant with write access has to ask first](https://blog.azizriskulov.com/posts/an-assistant-with-write-access-has-to-ask-first)
+- [Two coaches, one interview, and a race nobody could see](https://blog.azizriskulov.com/posts/two-coaches-one-interview-and-a-race-nobody-could-see)
 
-Actively working through concurrency patterns (goroutines, channels, mutexes), data structures & algorithms in Go, and building toward production-grade Go services. Studying system design with a focus on distributed systems.
+## Elsewhere
 
-## Find Me
-
-- **Website:** [azizriskulov.com](http://azizriskulov.com)  
-- **LinkedIn:** [linkedin.com/in/aziz-riskulov](https://linkedin.com/in/aziz-riskulov)  
+- **Portfolio:** [azizriskulov.com](https://azizriskulov.com)
+- **Notes:** [blog.azizriskulov.com](https://blog.azizriskulov.com)
+- **LinkedIn:** [in/aziz-riskulov](https://www.linkedin.com/in/aziz-riskulov/)
 - **Email:** vinceere@gmail.com
+
+Currently learning Go.
